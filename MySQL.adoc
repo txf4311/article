@@ -88,23 +88,25 @@ image::tb.png[]
 
 InnoDB引擎中支持的索引
 
+|===
+|Tree  |Hash
+|https://www.cs.usfca.edu/~galles/visualization/AVLtree.html[平衡树]
+https://www.cs.usfca.edu/~galles/visualization/BTree.html[B-树]
+https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html[B+树]
+|https://www.cs.usfca.edu/~galles/visualization/OpenHash.html[哈希]
+|===
+
 * B+Tree
 ----
-树的种类：二叉树 -> AVL树 -> 红黑树
-多路查找树：2-3树 -> 2-3-4树 -> B树 -> B+树
-为了更好的了解各路树建议：手写各种树
-https://www.cs.usfca.edu/~galles/visualization/AVLtree.html
-https://www.cs.usfca.edu/~galles/visualization/BTree.html
-https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html
-
-B-Tree 非叶子节点既保存索引值和指针又有数据
-B+Tree 非叶子节点只保存索引值和指针
-
-B+树可以更好的结合磁盘IO原理提高查询效率
 
 ----
 * Hash索引
 ----
-https://www.cs.usfca.edu/~galles/visualization/OpenHash.html
+
 ----
 * 全文索引（倒排索引）
+----
+
+----
+
+== 锁
