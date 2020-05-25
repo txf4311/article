@@ -54,6 +54,7 @@ select username from users
 * 优化器
 [indent=0]
 ----
+简单来说优化器的任务就是发现执行SQL查询的最佳方案
 ----
 
 * 存储引擎
